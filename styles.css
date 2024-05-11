@@ -27,6 +27,10 @@ body{
     background-color: #47120D;
 }
 
+.image-container {
+    display: flex;
+}
+
 .padre{
     width: 435px;
 }

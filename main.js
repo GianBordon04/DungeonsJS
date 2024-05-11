@@ -366,6 +366,8 @@ function endBattle() {
         }
 
     } else if (enemyHealth <= 0) {
+        playerHealth += 5;
+
         iniciarNuevaRonda();
         generarEnemigoAleatorio();
         enemyLose();
