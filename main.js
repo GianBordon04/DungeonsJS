@@ -416,7 +416,7 @@ function playerLose() {
 
 function enemyLose() {
     Toastify({
-        text: `Le has ganado a ${enemyName} ¡Sigue así!`,
+        text: `Le has ganado a ${enemyName} ¡Sigue así! ¡Ganaste 50 de vida!`,
         duration: 3000,
         gravity: "top",
         position: "right",
