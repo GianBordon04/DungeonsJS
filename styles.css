@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap');
+
+h1{
+color: white;
+}
+
+p{
+color: #E8CCC7;
+}
+:root {
+    --main-color:  #784d23;
+    --pane-padding: 5px 42px;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #47120D;
+}
+
+.padre{
+    width: 435px;
+}
+
+.razas{
+padding: 5px;
+border: 1px solid white;
+}
+
+.razas ul{
+display: none;
+}
+
+.razas ul:hover{
+display: flex;
+}
+
+.integrantes{
+display: flex;
+flex-direction: row;
+gap: 40px;
+border: 5px solid #F1B2B2 ;
+border-radius: 3px;
+padding: 5px;
+background-color: #8F3326;
+color: #E8CCC7;
+}
+
+.estadoDeBatalla{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.estadoDeIntegrantes{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: 5px solid #F1B2B2 ;
+border-radius: 3px;
+padding: 5px;
+background-color: #8F3326;
+color: #E8CCC7;
+}
+
+.divBtns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+display: flex;
+align-items: center;
+font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titulos{
+display: flex;
+color: #E8CCC7;
+}
+
